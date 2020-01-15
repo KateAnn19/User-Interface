@@ -58,7 +58,7 @@ html, body {
 	/* box-sizing: border-box; */
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6{
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
 	margin-bottom: 15px;
@@ -90,6 +90,16 @@ body{
 	border: solid 4px black;
 }
 
+.first{
+	display: inline-block;
+	width: 40%;
+}
+
+.second{
+	display: inline-block;
+	width: 50%;
+}
+
 .logo{
 	border: solid 4px purple;
 	margin-left: 75%;
@@ -105,37 +115,55 @@ h1{
 	margin-right: 18%;
 }
 
-p{
+.start{
 	border: solid 4px brown;
-	text-transform: capitalize;
 }
 
 .circle{
 	border: solid 4px pink;
+	margin-left: 55%;
 }
 
 .middle-img{
 	border: solid 4px burlywood;
+	margin-left: 2%;
 }
 
 .bottom-content{
 	border: solid 4px greenyellow;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.third{
+	display: inline-block;
+	width: 30%;
+}
+
+.fourth{
+	display: inline-block;
+	width: 30%;
+}
+
+.fifth{
+	display: inline-block;
+	width: 30%;
+}
+
+.contact-section{
+	border-top: solid 1px black;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+}
+
+.contact-section address h6{
+	padding-top: 2%;
 }
 
 .copyright{
 	border: solid 4px blueviolet;
 	text-align: center;
-}
-
-.contact-section{
-	border: solid 4px palevioletred;
-}
-
-.contact-section address h6{
-	font-weight: bold;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	text-transform: capitalize;
 }
 
 
