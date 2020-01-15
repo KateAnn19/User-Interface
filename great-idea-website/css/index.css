@@ -54,13 +54,111 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	/* box-sizing: border-box; */
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	/* box-sizing: border-box; */
 }
 
 /* Your code starts here! */
+body{
+	max-width: 100%;
+}
+
+.navigation{
+	border: 1px solid red;
+	margin-top: 3%;
+	margin-left: 23%;
+}
+
+.navigation a {
+	text-decoration: none;
+	border: 1px solid green;
+	color: grey;
+	padding-right: 1%;
+	padding-left: 1%;
+	margin-left: 10%;
+	margin-right: -8%; 
+}
+
+.top-content{
+	border: solid 4px black;
+}
+
+.logo{
+	border: solid 4px purple;
+	margin-left: 75%;
+}
+
+h1{
+	border: solid 6px yellowgreen;
+}
+
+.container{
+	border: solid 5px rebeccapurple;
+	margin-left: 21%;
+	margin-right: 18%;
+}
+
+p{
+	border: solid 4px brown;
+	text-transform: capitalize;
+}
+
+.circle{
+	border: solid 4px pink;
+}
+
+.middle-img{
+	border: solid 4px burlywood;
+}
+
+.bottom-content{
+	border: solid 4px greenyellow;
+}
+
+.copyright{
+	border: solid 4px blueviolet;
+	text-align: center;
+}
+
+.contact-section{
+	border: solid 4px palevioletred;
+}
+
+.contact-section address h6{
+	font-weight: bold;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
