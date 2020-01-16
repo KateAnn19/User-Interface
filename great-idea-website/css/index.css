@@ -54,13 +54,178 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	/* box-sizing: border-box; */
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6{
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	/* box-sizing: border-box; */
 }
 
 /* Your code starts here! */
+body{
+	max-width: 100%;
+}
+
+.navigation{
+	/* border: 1px solid red; */
+	margin-top: 3%;
+	margin-left: -6%;
+	margin-right: 25%;
+}
+
+.navigation a {
+	text-decoration: none;
+	/* border: 1px solid green; */
+	color: grey;
+	padding-right: 4%;
+	padding-left: 1%;
+	margin-left: 10%;
+	margin-right: -8%; 
+}
+
+.logo{
+	/* border: solid 4px purple; */
+	margin-left: 75%;
+	margin-top: -4%;
+}
+
+.cImage{
+	margin-top: -30%;
+}
+
+h1{
+	/* border: solid 6px yellowgreen; */
+	font-size: 400%;
+	margin-right: 60%;
+	padding-left: 0.5%;
+	margin-top: 5%;
+	margin-left: 8%;
+	text-align: center;
+}
+
+.container{
+	/* border: solid 5px rebeccapurple; */
+	margin-left: 21%;
+	margin-right: 18%;
+}
+
+.move{
+	margin-right: 15%;
+}
+
+.start{
+	border: solid 1px black;
+	margin-right: 60%;
+	padding-right: 1%;
+	padding-left: 7.5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-left: 15%; 
+	margin-top: 1%;
+}
+
+.together{
+	margin-top: 10%;
+	padding-right: 2%;
+}
+
+.circle{
+	/* border: solid 4px pink; */
+	margin-left: 55%;
+	margin-bottom: 10%;
+}
+
+.top-content{
+	border-top: solid 1px black;
+	margin-top: -4%;
+	margin-bottom: 2%;
+	padding-top: 2%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.first{
+	display: inline-block;
+	width: 40%;
+	margin-left: 2%;
+}
+
+.second{
+	display: inline-block;
+	width: 40%;
+	margin-left: 7%;
+}
+
+.middle-img{
+	/* border: solid 4px burlywood; */
+	margin-left: 2%;
+}
+
+.bottom-content{
+	/* border: solid 4px greenyellow; */
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-left: 2%;
+}
+
+.third{
+	display: inline-block;
+	width: 30%;
+}
+
+.fourth{
+	display: inline-block;
+	width: 30%;
+	margin-left: 4%;
+}
+
+.fifth{
+	display: inline-block;
+	width: 30%;
+	margin-left: 4%;
+}
+
+.contact-section{
+	border-top: solid 1px black;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+
+.contact-section address h6{
+	padding-top: 2%;
+}
+
+.copyright{
+	/* border: solid 4px blueviolet; */
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
